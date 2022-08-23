@@ -1,0 +1,242 @@
+@media (max-width:1199px){
+.cont-head {
+  margin-left: 95px;
+}
+.metall{
+  right: 90px;
+}
+.block_contact{
+	margin-right: 70px;
+}
+#modal_form{
+	width: 992px;
+	margin-left: -496px;
+}
+.inpmodal{
+	width: 210px;
+}
+}
+
+@media (max-width:991px){
+.telephone{
+  padding-right: 5px;
+}
+.cont-head {
+  margin-left: 19px;
+}
+.menu li{
+  margin: 0;
+}
+.metall {
+    right: 0;
+    width: 499px;
+    bottom: 70px;
+}
+.block_contact {
+    margin-right: 0;
+}
+.zakaz{
+	font-size: 14px;
+}
+#modal_form{
+	width: 768px;
+	margin-left: -384px;
+}
+.inpmodal{
+	width: 160px;
+}
+}
+
+@media (max-width:768px){
+.zagolovok {
+    text-align: center;
+    font-size: 33px;
+}
+.opis{
+  text-align: center;
+}
+img.metall {
+    max-width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.vkatalog{
+  position: relative;
+  z-index: 1;
+  margin: 20px auto 0;
+  display: block;
+}
+h1.zagolovok {
+    position: relative;
+    z-index: 1;
+}
+.header{
+  text-align: center;
+}
+.logo_block{
+  margin-bottom: 5px;
+  display: block;
+}
+.cont-head {
+    margin-left: 0px;
+}
+.menu_mob{
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+}
+.menu{
+  width: 200px;
+  float: none;
+  margin-left: calc(50% - 100px);
+  background: rgba(234,169,40,0.8);
+  margin-top: 10px;
+  overflow: hidden;
+  height: 0;
+  border-top: 2px solid rgba(255,255,255,0.5);
+  -webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	-ms-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+.menu li{
+  display: block;
+  margin: 0 auto;
+}
+.menu li a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.menu li a:hover{
+  color: #000;
+  background: none;
+}
+.block1{
+  padding-top: 115px;
+}
+.activemenu{
+  height: 128px;
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+.waranty-block{
+	max-width: 185px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-wrap input{
+	margin-bottom: 15px;
+}
+.jumbotron {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+}
+.schem-wrap{
+	height: auto;
+}
+.product-contain{
+	width: 100%;
+}
+.product-tabs li{
+	display: block;
+}
+.form-wrap{
+	height: auto;
+}
+.form-button{
+	max-width: 100%;
+}
+.for_slider{
+	max-width: calc(100% - 70px);
+}
+.slider .owl-prev{
+	width: 25px;
+    height: 25px;
+	left: -35px;
+	top: calc(50% - 12px);
+}
+.slider .owl-next{
+	width: 25px;
+    height: 25px;
+	right: -35px;
+	top: calc(50% - 12px);
+}
+.recall-card{
+	padding: 10px;
+	height: auto;
+}
+.recall-head{
+	text-align: center;
+}
+.container_footer{
+	position: relative;
+}
+.layer_my{
+	display: none;
+}
+.block_contact{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	display: block;
+	float: none;
+	max-width: 252px;
+}
+.my_quad{
+	color: #fff;
+}
+.footer > ymaps{
+	height: 200px !important;
+	opacity: 1;
+}
+.menu li a.active{
+	background: none;
+}
+.header{
+	position:relative
+}
+.block1 {
+    margin-top: -125px;
+}
+.menu{
+	    position: fixed;
+    top: -10px;
+}
+.mymy {
+    width: calc(34% - 10px);
+    display: inline-block;
+}
+.formy{
+	text-align: center;
+}
+#modal_form{
+	width: 100%;
+	left: 0;
+	margin-left: 0;
+	max-height: 90%;
+    overflow-y: auto;
+}
+.modaltitle{
+	margin-top: 20px;
+	text-align: center;
+}
+.inpmodal{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: block;
+}
+.forinput, .forpay{
+	text-align: center;
+}
+.pricemodal{
+	margin-right: 0;
+	margin-bottom: 10px;
+	display: block;
+}
+}

@@ -1,0 +1,18 @@
+﻿Host: https://shurf.com.ua
+ 
+User-agent:*
+Allow:/*?*
+Allow:/*.js
+Allow:/*.css
+Allow:/wp-content/themes/*.css
+Allow:/wp-content/plugins/*.css
+Allow:/wp-content/uploads/*.css
+Allow:/wp-content/themes/*.js
+Allow:/wp-content/plugins/*.js
+Allow:/wp-content/uploads/*.js
+Allow:/public_html/css/
+Allow:/public_html/js/
+Allow:/public_html/img/
+Allow:/public_html
+ 
+Sitemap: https://shurf.com.ua/sitemap.xml

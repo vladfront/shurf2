@@ -1,0 +1,223 @@
+.basket {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-top: -5px;
+    border-right: 0;
+    margin-left: 10px;
+    color: #000;
+    text-shadow: 1px 1px 7px white;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    }
+    @media screen and (max-width:1220px) {
+        .basket {
+            right: -5px;
+        }
+    }
+    @media screen and (max-width:1193px) {
+        .basket {
+            right: 10px;
+        }
+    }
+
+    @media screen and (max-width:1030px) {
+        .basket {
+            right: 1px;
+        }
+    }
+    @media screen and (max-width:982px) {
+        .basket {
+            right: 25px;
+        }
+    }
+
+.basket__count {
+    font-family: kelsonsansregularru;
+    font-size: 16px;
+    margin-top: 2px;
+    
+    
+}
+
+.basket__count-text {
+    font-family: kelsonsansregularru;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 20px;
+    
+}
+
+.basket__img {
+    width: 30px;
+    height: 30px;
+}
+.basket__img-box {
+    margin-left: auto;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(111, 108, 108, 0.808);
+}
+.activemenu .basket {
+    margin: 0 auto;    
+    max-width: 179px;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 700;
+    /**/
+    border: 2px solid #fff;
+}
+.activemenu .basket__img-box {
+    background: #fff;
+}
+.activemenu {
+    display: flex;
+    flex-direction: column;
+}
+.activemenu {
+
+}
+.smart-basket__alert {
+    z-index: 9999999;
+}
+.smart-basket__alert-wrapper {
+z-index: 999;
+}
+.basket__add {   
+    background: #159288;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #159288;
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+    transition: .3s all;
+}
+.basket__add:hover {
+    color: #159288;
+    background: #fff;
+}
+.smart-basket__min {
+    background: transparent;
+    border: 0;
+}
+.smart-basket__min-icon {
+    width: 30px;
+    height: 30px;
+}
+.smart-basket__min-count {
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 0px;
+}
+/*<button class="smart-basket__min"><img class="smart-basket__min-icon" src="./smartbasket/img/shopping-basket-wight.svg" width="18" alt="Корзина"><span class="smart-basket__min-count">0</span></button
+-*/
+.activemenu .basket {
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+.activemenu {
+    height: 120px;
+    min-height: 0;
+}
+.activemenu .smart-basket__min-count {
+    color: #fff;
+}
+@media screen and (max-width:768px) {
+    .basket {
+        bottom: 5px !important;
+        right: 1px;
+    }
+}
+.smart-basket_active {
+    background: transparent !important;
+}
+.smart-basket__form {
+    background: #ffffff !important;
+}
+
+
+
+.smart-basket__form {
+    position: relative !important;
+}
+/*.smart-basket__form::after {
+    position: absolute !important;
+    width: 10px !important;
+    height: 10px !important;
+    top: 10px !important;
+    right: 20px !important;
+    display: block !important;
+    z-index: 99999;
+    content: url(../img/cross-basket.svg);
+}
+.smart-basket__product-name {
+    max-width: 307px !important;
+} */
+.smart-basket__link-agreement {
+    display: none !important;
+
+}
+.smart-basket__label-agreement {
+    display: none !important;
+}
+.smart-basket__input-agreement {
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.smart-basket__input-agreement:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.smart-basket__quantity-item {
+    display: none !important;
+}
+
+@media (max-width: 1030px) {
+.smart-basket__product-id:before {
+    width: 80% !important;
+}
+}
+.forpay {
+    display: flex; 
+    vertical-align: middle;
+    font-size: 24px;
+    font-family:kelsonsansregularru;
+    color: #159288;
+    margin-right: 25px;
+}
+@media screen and (max-width:520px) {
+    #modal_form {
+        width: 90% !important;
+        margin: 0 auto !important;
+        margin-left: 10px !important;
+    }
+}
+@media screen and (max-width:1027px) {
+    .smart-basket_active {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .smart-basket__product-delete {
+        position: relative;
+        background: orangered !important;
+    }
+    .smart-basket__product-delete::after {
+        content: "Видалити";
+        color: #fff;
+        font-family:kelsonsansregularru;
+        font-size: 24px;
+    }
+    .smart-basket__delete-icon {
+        display: none !important;
+    }
+}
